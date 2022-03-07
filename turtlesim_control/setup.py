@@ -18,10 +18,10 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='pi31415',
-    maintainer_email='pi31415@todo.todo',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    maintainer='Pi Thanacha Choopojcharoen',
+    maintainer_email='tchoopojcharoen@gmail.com',
+    description='This package consists of node that continuously control Turtlesim as well as launch file for running necessary nodes.',
+    license='GPLv2',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
