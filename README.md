@@ -1,7 +1,7 @@
 # ros2_turtlesim_control
 This repository serves as a basic stepping stone for roboticists  who want to investigate fundamentals of ROS2 programming with Turtlesim. This repository also consists of basic implementation of mobile robot control using Python and Simulink (mutually exclusive).
 
-For Python :
+For Python : \
 Once you setup all packages and build your workspace, run the following command to execute launch file that will bring up Turtlesim and other nodes.
 ```
 ros2 launch turtlesim_control turtlesim_bringup.launch.py 
