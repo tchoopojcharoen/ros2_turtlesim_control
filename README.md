@@ -15,5 +15,5 @@ ros2 action send_goal --feedback /go_to_goal turtlesim_control_action/action/GoT
 
 For Simulink:
 
-You can run the model without ROS2 network since the deafult model consists of its own simulator. 
+You need to set up MATLAB's pyenv, cmake, and C++ compiler accordingly. And you also need "Mobile Robotics SImulation Toolbox" add-on. Once you have those, you can run the model without ROS2 network since the deafult model consists of its own simulator. 
 -TO DO : instruction on how to run the model with Turtlesim in the network.
