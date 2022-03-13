@@ -6,7 +6,7 @@ function build_rclm
 %   M_CREATE_PKG (document available only after setup)
 
 
-addpath('.share')
+addpath('share')
 package_name;
 files = dir;
 dirFlags = [files.isdir];
@@ -25,7 +25,7 @@ for package = packages
         fprintf('Package %s does not exist in this directory.\n',package{:})
     end
 end
-save('.share/packages.mat',"package_name_installed");
+save('share/packages.mat',"package_name_installed");
 savepath
 ros2genmsg([pwd '/custom_interface']);
 end
